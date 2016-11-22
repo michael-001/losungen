@@ -56,16 +56,18 @@ a.navbar-brand.navbar-link:hover {
   max-height:55px;
 }
 
-nav.navbar.navbar-default {
-  max-height:90px;
-  background-color:rgb(231,231,231);
-  background-image:none;
-  padding:20px;
-  z-index:1;
-  position:fixed;
-  width:100%;
-  margin-top:-50px;
-  transition:0.5s;
+@media (max-width:767px) {
+  nav.navbar.navbar-default {
+    max-height:90px;
+    background-color:rgb(231,231,231);
+    background-image:none;
+    padding:20px;
+    z-index:1;
+    position:fixed;
+    width:100%;
+    margin-top:-35px;
+    transition:0.5s;
+  }
 }
 
 .nav > li > a {
@@ -398,7 +400,28 @@ footer {
 
 @media (max-width:767px) {
   .main .col-sm-12 {
+    min-height:80px;
+    margin-top:50px;
+    padding-top:5px;
     background-color:#e20036;
+    color:#fff;
   }
+}
+
+@media (max-width:767px) {
+  .main .col-sm-12 h2 {
+    color:#fff;
+  }
+}
+
+@media (max-width:767px) {
+  .text-right {
+    text-align:left;
+    margin-top:5px;
+  }
+}
+
+.row.section2 {
+  padding-bottom:10px;
 }
 
