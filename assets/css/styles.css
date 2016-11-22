@@ -102,7 +102,7 @@ nav.navbar.navbar-default {
 }
 
 header.jumbo {
-  background:url(../../assets/img/hero.jpg) 35% top;
+  background:url(../../assets/img/hero.jpg) 35% top no-repeat;
   min-height:500px;
   padding:30px;
   margin-top:90px;
@@ -207,7 +207,6 @@ div.angled-rectangle {
 }
 
 div.subangled-rectangle {
-  height:300px;
   border-radius:0px 30px;
   width:100%;
   margin-top:-45px;
@@ -236,5 +235,33 @@ div.subangled-rectangle {
 .subangled-rectangle h4 {
   color:#e20036;
   font-weight:300;
+}
+
+.main {
+  margin-top:-290px;
+}
+
+.voluptua {
+  min-height:200px;
+  background-image:url(../../assets/img/person1.png);
+  background-position:center top;
+  border-radius:0px 25px;
+  background-repeat:no-repeat;
+}
+
+.voluptua img {
+  margin-left:-5px;
+  margin-top:10px;
+  width:30px;
+}
+
+.section5 {
+  background-color:#e20036;
+  min-height:400px;
+  padding:10px;
+}
+
+input[type=radio] {
+  content:url(../../assets/img/overlay.png);
 }
 

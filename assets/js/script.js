@@ -31,14 +31,4 @@ $("#case0,#case1,#case2").hover(function(){
 });
 
 
-// if($("#case").hover()){
-//    let el = $("#case");
-   
-// }else {
-//     // el.find(".angled-rectangle").addClass('angled-rectangle');
-//    // el.find(".angled-rectangle h3").addClass
-// }
-
-
-
 
