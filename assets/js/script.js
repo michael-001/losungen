@@ -29,6 +29,22 @@ $("#case0,#case1,#case2").hover(function(){
     el.find(".subangled-rectangle .icon").css('color','#e20036');
     el.find(".subangled-rectangle span").css('color','#000');
 });
-
+$('.section5').on('click','.right-switchbox', function(){
+    $(this).closest('.section5').find('.left-switchbox').removeClass('highlighted');
+    $(this).closest('.section5').find('.right-switchbox').addClass('highlighted');
+    $(this).closest('.section5').find('.left-content').fadeOut(200, function(){
+        $(this).closest('.section5').find('.right-content').fadeIn(200);
+    });
+    
+    
+})
+$('.section5').on('click','.left-switchbox', function(){
+    $(this).closest('.section5').find('.right-switchbox').removeClass('highlighted');
+    $(this).closest('.section5').find('.left-switchbox').addClass('highlighted');
+    $(this).closest('.section5').find('.right-content').fadeOut(200, function(){
+        $(this).closest('.section5').find('.left-content').fadeIn(200);
+    });
+    
+})
 
 
